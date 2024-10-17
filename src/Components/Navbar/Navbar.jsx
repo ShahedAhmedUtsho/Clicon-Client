@@ -32,11 +32,11 @@ const Navbar = () => {
 </div>
 </Popover.Trigger>
 
-<Popover.Content   >
+{/* <Popover.Content   >
 hello
 
 
-    </Popover.Content>
+    </Popover.Content> */}
             
           
             </Popover.Root>

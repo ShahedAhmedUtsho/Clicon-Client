@@ -10,7 +10,7 @@ const Router = () => {
 
        
        <header className=' bg-[#1B6392]'>
-        <div className='lg:container lg:mx-auto mx-2'>
+        <div className='lg:container lg:mx-auto px-3'>
         <Top />
         <Header />
        
@@ -19,17 +19,19 @@ const Router = () => {
         
          
           </header>
-
-
-          <div className='lg:container lg:mx-auto mx-2'>
+<header className='border-b '>
+<div className='lg:container lg:mx-auto px-3 '>
       
-          <Navbar />
+      <Navbar />
 
-          </div>
+      </div>
+</header>
+
+       
 
 
 
-          <main>
+          <main className='lg:mt-6 md:mt-2 mt-1  lg:container lg:mx-auto px-3'>
           <Outlet />
           </main>
        </div>
