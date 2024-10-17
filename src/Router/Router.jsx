@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Top from '../Components/Top/Top';
 import Header from '../Components/Header/Header';
+import Navbar from '../Components/Navbar/Navbar';
 
 const Router = () => {
     return (
@@ -12,11 +13,22 @@ const Router = () => {
         <div className='lg:container lg:mx-auto mx-2'>
         <Top />
         <Header />
+       
 
         </div>
         
          
           </header>
+
+
+          <div className='lg:container lg:mx-auto mx-2'>
+      
+          <Navbar />
+
+          </div>
+
+
+
           <main>
           <Outlet />
           </main>
