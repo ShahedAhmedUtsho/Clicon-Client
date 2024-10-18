@@ -21,7 +21,7 @@ const Typo = () => {
 </h4>
 
 <h5 className="font-semibold text-gray-900 text-[36px] leading-[44px] md:text-[40px] md:leading-[48px] lg:text-[48px] lg:leading-[56px]">
- Display 05
+ Display 03
 </h5>
 
 {/* <!-- Heading Styles --> */}
@@ -79,7 +79,7 @@ const Typo = () => {
  Body Small 500
 </p>
 
-<p className="font-semibold text-gray-900 text-[14px] leading-[20px] md:text-[16px] md:leading-[24px] lg:text-[18px] lg:leading-[28px]">
+<p className="font-semibold text-gray-900 text-[14px] leading-[20px] md:text-[16px] md:leading-[24px] lg:text-[14px] lg:leading-[18px]">
  Body Small 600
 </p>
 
