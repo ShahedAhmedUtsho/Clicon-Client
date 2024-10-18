@@ -16,8 +16,10 @@ const BannerRight = () => {
        
 
 
-        <div className='md:col-span-4 col-span-12 grid grid-cols-2 md:row-span-7 gap-2  lg:gap-6 row-span-4 grid-rows-2 '>
-        <Link to="/products" className='bg-slate-900 md:col-span-2 w-full h-full col-span-1 rounded-md flex row-span-1 '>
+        <div className='md:col-span-4  col-span-12 grid grid-cols-2 md:row-span-7 gap-2  lg:gap-6 row-span-2 md:grid-rows-2 '>
+
+            
+        <Link to="/products" className='bg-slate-900 md:col-span-2 w-full h-full col-span-1 rounded-md flex row-span-1  '>
        <div className='h-full w-full lg:pl-10 lg:py-10 pl-2 py-2 md:pl-5 md:py-5 '>
        <span className="font-medium text-[#EBC80C] text-[1.5vw] md:text-[1vw] lg:text-[14px]  uppercase tracking-wider">
             
@@ -55,7 +57,7 @@ const BannerRight = () => {
 
 
 
-        <Link to="/products" className='bg-[#F2F4F5] md:col-span-2 w-full h-full col-span-1 rounded-md flex row-span-1 '>
+        <Link to="/products" className='bg-[#F2F4F5]  md:col-span-2 w-full h-full col-span-1 rounded-md flex row-span-1 '>
       
        
 <div className='h-full w-full flex justify-center items-center'>

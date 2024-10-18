@@ -12,7 +12,7 @@ import BannerLeft from './BannerLeft';
 const Banner = () => {
    
     return (
-        <div className=' h-[100vw] md:h-[40vw] lg:max-h-[520px] lg:h-[33vw]  grid grid-cols-12 gap-2 lg:gap-6  grid-rows-7  '>
+        <div className='   md:h-[40vw] lg:max-h-[520px] lg:h-[33vw]  grid grid-cols-12 gap-2 lg:gap-6  grid-rows-5  '>
           <BannerLeft /> 
 
 <BannerRight />
