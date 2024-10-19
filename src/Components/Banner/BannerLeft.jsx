@@ -21,7 +21,6 @@ arrows: false         // Disable navigation arrows
   
     return (
         <Slider {...settings} className='bg-[#F2F4F5] !box-border   md:col-span-8 col-span-12 md:row-span-7 row-span-3 rounded-md   !grid !h-full '>
-           
 
         <div className='   !row-span-2 !col-span-2  '>
            <div className='flex lg:gap-9 lg:p-14 p-6 justify-center items-center  h-full w-full' >
