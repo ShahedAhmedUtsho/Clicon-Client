@@ -10,3 +10,13 @@
 html {
   font-family: 'Public Sans', sans-serif;
 }
+
+
+body {
+  min-height: 100vh;
+  background: rgb(27, 99, 146);
+  background: -webkit-linear-gradient(0deg, rgba(27, 99, 146, 1) 50%, rgba(25, 28, 31, 1) 50%);
+  /* Safari/Chrome */
+  background: linear-gradient(0deg, rgba(27, 99, 146, 1) 50%, rgba(25, 28, 31, 1) 50%);
+  overflow-y: auto;
+}

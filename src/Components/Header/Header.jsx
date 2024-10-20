@@ -100,7 +100,7 @@ const MobileSearchBar = (   ) => {
 
 const MobileNavbar =({handleShowNav})=>{
     return(
-        <div id="responsive_nav" className='w-screen z-50 h-screen absolute top-0 left-0 text-[#5F6C72]   bg-[white] pt-20 flex flex-col gap-5  items-start p-5'>
+        <div id="responsive_nav" className='w-screen z-50 h-screen fixed overflow-y-scroll top-0 left-0 text-[#5F6C72]   bg-[white] pt-20 flex flex-col gap-5  items-start p-5'>
             <NavLink to="/login" onClick={handleShowNav} className={({isActive})=>`  flex ${isActive && 'border-b'}  pb-2 text-[#5F6C72] hover:bg-slate-200 gap-2 items-center justify-start w-full transition duration-200`}>
                 <User className='mr-2 text-[#5F6C72]' /> {/* User icon for Login */}
                 <p className="font-normal text-gray-900 text-[11px] leading-[12px] md:text-[12px] md:leading-[14px] lg:text-[13px] lg:leading-[16px]">

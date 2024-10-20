@@ -29,7 +29,7 @@ const SecondaryBanner = () => {
     ];
 
     return (
-        <div className="border border-[#E4E7E9] mt-6 grid grid-cols-2 md:grid-cols-4 gap-3 lg:py-6 md:py-3 py-2 pl-3 md:pl-0  ">
+        <div className="border border-[#E4E7E9] my-6 grid grid-cols-2 md:grid-cols-4 gap-3 lg:py-6 md:py-3 py-2 pl-3 md:pl-0  ">
             {bannerItems.map((item, index) => (
                 <div
                     key={index}
