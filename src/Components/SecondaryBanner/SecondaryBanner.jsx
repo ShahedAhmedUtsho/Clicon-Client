@@ -1,4 +1,4 @@
-import React from 'react';
+
 import boxIcon from '../../assets/Svg/Duotone/Package.svg';
 import CreditIcon from '../../assets/Svg/Duotone/CreditCard.svg';
 import TrophyIcon from '../../assets/Svg/Duotone/Trophy.svg';
@@ -35,6 +35,7 @@ const SecondaryBanner = () => {
                     key={index}
                     className={`flex w-full md:justify-center  items-center ${index !== bannerItems.length - 1 ? 'border-r' : ''} gap-4 border-[#E4E7E9]`}
                 >
+                    
                     <img className="w-6 md:w-6 lg:w-8" src={item.icon} alt={item.title} />
                     <div className="lg:gap-1 flex flex-col">
                         <span className="font-medium text-[#191C1F] text-[8px] sm:text-sm md:text-[12px] lg:text-[14px] uppercase tracking-wider">

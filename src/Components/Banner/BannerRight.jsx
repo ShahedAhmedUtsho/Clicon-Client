@@ -21,15 +21,15 @@ const BannerRight = () => {
             
         <Link to="/products" className='bg-slate-900 md:col-span-2 w-full h-full col-span-1 rounded-md flex row-span-1  '>
        <div className='h-full w-full lg:pl-10 lg:py-10 pl-2 py-2 md:pl-5 md:py-5 '>
-       <span className="font-medium text-[#EBC80C] text-[1.5vw] md:text-[1vw] lg:text-[14px]  uppercase tracking-wider">
+       <span className="font-medium text-[#EBC80C] text-[1.5vw] md:text-[1vw] lg:text-[0.78vw]  uppercase tracking-wider xl:text-[14px]  ">
             
        Summer Sales
            </span>
-           <h3 className="font-semibold text-white text-[3vw] leading-[1.3em] lg:leading-8 md:text-sm  lg:text-2xl pb-[0.8em] ">
+           <h3 className="font-semibold text-white text-[3vw] leading-[1.3em] xl:text-2xl lg:text-[1.32vw] lg:leading-[1.8vw] md:text-sm   pb-[0.8em] ">
            New Google Pixel 6 Pro
            </h3>
                          
-           <button className='py-[0.8em] px-[1.3em] bg-[#FA8232] md:text-[8px] lg:text-[14px] text-[5px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
+           <button className='py-[0.8em] px-[1.3em] bg-[#FA8232] md:text-[8px] lg:text-[0.78vw] text-[5px] xl:text-sm rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
                
                <span className="font-medium  uppercase tracking-wider">
                shop now 
@@ -65,14 +65,14 @@ const BannerRight = () => {
 </div>
 <div className='h-full w-full lg:pl-10 lg:py-10 pr-2 py-2 md:pr-5 md:py-5 '>
      
-           <h3 className="font-semibold text-gray-900 text-[3vw] md:leading-[1.3em] lg:leading-8 md:text-sm  lg:text-2xl  ">
+           <h3 className="font-semibold text-gray-900 text-[3vw] md:leading-[1.3em] lg:text-[1.32vw] lg:leading-[1.8vw] md:text-sm xl:text-2xl    ">
            Xiaomi FlipBuds Pro
            </h3>
            <span className="font-medium text-[#2DA5F3] text-[1.5vw] md:text-[1vw] lg:text-[14px]  uppercase tracking-wider   inline-block md:mt-1 ">
             
            $299 USD
                 </span>
-           <button className='py-[0.8em] mt-[1vw] px-[1.3em] bg-[#FA8232] md:text-[8px] lg:text-[14px] text-[5px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
+           <button className='py-[0.8em] mt-[1vw] px-[1.3em] bg-[#FA8232] md:text-[8px] lg:text-[0.78vw] text-[5px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center xl:text-sm '>
                
                <span className="font-medium  uppercase tracking-wider">
                shop now 
@@ -80,6 +80,8 @@ const BannerRight = () => {
                    
                    <img className='w-[1.5em] h-[1.5em]' src={buttonArrow} alt="" />
                    </button>
+
+                   
        </div>
         </Link >
 
