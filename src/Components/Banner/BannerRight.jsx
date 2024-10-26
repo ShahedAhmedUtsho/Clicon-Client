@@ -1,12 +1,12 @@
 
 
-import React from 'react';
+
 import buttonArrow from '../../assets/Svg/Regular/ArrowRight.svg' ;
 import bannerImg from '../../assets/images/Image.png'
-import phoneIMG from '../../assets/images/image 5.png'
 import earphone from '../../assets/images/image 4.png'
 
 import { Link } from 'react-router-dom';
+import Button from '../Buttons/Buttons';
 
 
 
@@ -29,14 +29,15 @@ const BannerRight = () => {
            New Google Pixel 6 Pro
            </h3>
                          
-           <button className='py-[0.8em] px-[1.3em] bg-[#FA8232] md:text-[8px] lg:text-[0.78vw] text-[5px] xl:text-sm rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
-               
-               <span className="font-medium  uppercase tracking-wider">
+<Button size='sm' >
+<span className="">
                shop now 
                </span>
                    
                    <img className='w-[1.5em] h-[1.5em]' src={buttonArrow} alt="" />
-                   </button>
+</Button>
+
+           
        </div>
        
 <div className='h-full w-full'>
@@ -72,14 +73,16 @@ const BannerRight = () => {
             
            $299 USD
                 </span>
-           <button className='py-[0.8em] mt-[1vw] px-[1.3em] bg-[#FA8232] md:text-[8px] lg:text-[0.78vw] text-[5px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center xl:text-sm '>
+           <Button size='sm' className={`mt-[1vw]`}>
                
-               <span className="font-medium  uppercase tracking-wider">
+               <span className="">
                shop now 
                </span>
                    
                    <img className='w-[1.5em] h-[1.5em]' src={buttonArrow} alt="" />
-                   </button>
+                   </Button>
+
+
 
                    
        </div>

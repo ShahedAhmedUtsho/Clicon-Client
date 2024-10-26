@@ -46,7 +46,7 @@ const handleShowSearch = () =>{
 
             <div className=' w-1/2  bg-white min-h-12 rounded-sm px-5 lg:flex hidden  justify-between'>
             <input className='w-full text-black/70 focus:outline-none' placeholder='Search for anything...'  type="text" /> 
-            <img src={SearchIcon} alt="search" className=" cursor-pointer" />
+            <img src={SearchIcon} alt="search" className=" cursor-pointer anime-btn" />
 
 </div>
 

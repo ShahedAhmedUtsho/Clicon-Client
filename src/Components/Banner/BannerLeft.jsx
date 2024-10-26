@@ -4,6 +4,7 @@ import bannerImg from '../../assets/images/Image.png'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Button from '../Buttons/Buttons';
 
 
 const BannerLeft=() =>{
@@ -19,54 +20,9 @@ arrows: false         // Disable navigation arrows
 };
 
 
-
-
-function buttonFn (e){
-   
-   let ripples = document.createElement('span') ; 
-let x = e.target.classList.contains('anime-btn') ? (
-   e.pageX - e.target.offsetLeft 
-):(e.pageX - e.target.parentNode.offsetLeft)
-
-
-
-
-
-let y = e.target.classList.contains('anime-btn') ? (
-  
-    e.pageY -e.target.offsetTop 
-):(e.pageY -e.target.parentNode.offsetTop)
-
-   ripples.style.left = x + 'px' ; 
-   ripples.style.top =  y + 'px' ;
-   console.log(x + 'px',y + 'px')
-   ripples.classList.add('anime') ; 
-
-  
-if(e.target.classList.contains('anime-btn') ){
-   e.target.appendChild(ripples) ; 
-
-}else{
-  
-   e.target.parentNode.appendChild(ripples) ; 
+const check = ()=>{
+      console.log('clicked')
 }
-   setTimeout(()=>{
-      ripples.remove()
-
-   },1000) ;
-
-
-
-
-
-
-
-
-
-
-}
-
-
 
 
 
@@ -90,14 +46,20 @@ Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.
 </p>
 
 
-<button onClick={buttonFn} className='anime-btn py-[1em] px-[1.5em] bg-[#FA8232] md:text-[8px] lg:text-[0.88vw] text-[6px] xl:text-base rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
+<Button onClick={check}   className=' xl '>
 
-<span className=" font-medium  uppercase tracking-wider">
+<span className=" ">
 shop now 
 </span>
 
 <img className='w-[1.5em] h-[1.5em]' src={buttonArrow} alt="" />
-</button>
+</Button>
+
+
+
+
+
+
 </div>
 <div className='w-full h-full'>
 <img className='w-full !h-full    object-contain max-h-[35vw] md:max-h-[250px]  lg:max-h-[400px]  ' src={bannerImg} alt="" />
@@ -120,7 +82,7 @@ Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.
 </p>
 
 
-<button onClick={buttonFn} className='anime-btn py-[1em] px-[1.5em] bg-[#FA8232] md:text-[8px] lg:text-[16px] text-[6px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
+<button  className='anime-btn py-[1em] px-[1.5em] bg-[#FA8232] md:text-[8px] lg:text-[16px] text-[6px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
 
 <span className="font-medium  uppercase tracking-wider">
 shop now 
@@ -150,7 +112,7 @@ Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.
 </p>
 
 
-<button onClick={buttonFn} className='anime-btn py-[1em] px-[1.5em] bg-[#FA8232] md:text-[8px] lg:text-[16px] text-[6px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
+<button  className='anime-btn py-[1em] px-[1.5em] bg-[#FA8232] md:text-[8px] lg:text-[16px] text-[6px] rounded-sm text-white flex gap-[0.75em]  justify-center items-center '>
 
 <span className="font-medium  uppercase tracking-wider">
 shop now 

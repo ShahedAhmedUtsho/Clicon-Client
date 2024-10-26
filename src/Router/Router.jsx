@@ -7,10 +7,10 @@ import Footer from '../Components/Footer/Footer';
 
 const Router = () => {
     return (
-        <div className='min-h-screen w-full flex flex-col bg-white '>
+        <div className='min-h-screen  w-full flex flex-col bg-white '>
 
        
-       <header className=' bg-[#1B6392]'>
+       <header className=' bg-[#1B6392] '>
         <div className='lg:container lg:mx-auto px-3'>
         <Top />
         <Header />
