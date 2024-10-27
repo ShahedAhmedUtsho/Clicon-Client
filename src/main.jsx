@@ -9,6 +9,7 @@ import {
 import Router from './Router/Router';
 import Home from './Pages/Home/Home';
 import Typo from './Pages/Typo/Typo';
+import Auth from './Pages/Auth/Auth';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
        },
        { 
         path: "/login", 
-        element: <div>login</div>
+        element: <Auth /> 
        },
        { 
         path: "/register", 

@@ -43,7 +43,7 @@ const {
 
 const Typo = () => {
   return (
-    <div className='min-h-screen bg-white p-6'>
+    <div className='min-h-screen bg-white p-6 flex flex-col'>
 
 
       <Display01 className="mb-4">Display 01</Display01>

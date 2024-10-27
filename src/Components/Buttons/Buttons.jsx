@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import React from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
@@ -8,13 +7,7 @@ const Button = ({ className, variant, children, to,onClick, size = "normal", ...
 
   function buttonFn(e) {
     const button = e.currentTarget;
-    if(onClick) {
-        onClick(e);
-    }
-
-    if (to) {
-      navigate(to);
-    }
+ 
 
     const ripple = document.createElement('span');
     ripple.classList.add('anime');
@@ -29,11 +22,33 @@ const Button = ({ className, variant, children, to,onClick, size = "normal", ...
     button.appendChild(ripple);
 
     setTimeout(() => ripple.remove(), 1000);
+
+
+    if (to) {
+      navigate(to);
+    }
+
+    if(onClick) {
+      onClick(e);
   }
 
-  const baseClasses = size === 'normal'
-    ? "py-[1em] px-[1.5em] md:text-[8px] lg:text-[0.88vw] text-[6px] xl:text-base"
+ 
+  }
+
+
+    const baseClasses = size === 'normal'
+    ? "py-[1em] px-[1.5em]  md:text-[8px] lg:text-[0.88vw] text-[6px] xl:text-base"
+    : size === 'long'
+    ? "lg:py-[1em] lg:px-[1.5em] py-[1.4em] px-[1.5em]  md:text-[10px] lg:text-[0.88vw] text-[8px] xl:text-base"
     : "py-[0.8em] px-[1.3em] md:text-[8px] lg:text-[0.78vw] text-[6px] xl:text-sm";
+
+
+
+
+
+
+
+
 
   switch (variant) {
     case "outline":
@@ -73,7 +88,8 @@ Button.propTypes = {
   variant: PropTypes.oneOf(['outline', 'default']),
   children: PropTypes.node,
   to: PropTypes.string,
-  size: PropTypes.oneOf(['normal', 'sm']),
+  size: PropTypes.oneOf(['normal', 'sm', 'long']),
+  onClick: PropTypes.func,
 };
 
 export default Button;
