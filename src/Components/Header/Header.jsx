@@ -34,7 +34,7 @@ const handleShowSearch = () =>{
     return (
         <div className=' transition-all duration-500 ease-linear'>
         <div className='md:min-h-20 min-h-14 text-white w-full   flex md:flex-row   items-center justify-between lg:py-5   '>
-            <div className="logo flex gap-2    ">
+            <Link to="home" className="logo flex gap-2    ">
                 <img className='lg:w-auto md:w-8 w-5' src={logo} alt="logo" />
                 <span className="font-semibold text-lg leading-[40px] md:text-[36px] md:leading-[44px] lg:text-[40px] lg:leading-[48px]">
                 Clicon
@@ -42,7 +42,7 @@ const handleShowSearch = () =>{
 
           
                 
-            </div>
+            </Link>
 
             <div className=' w-1/2  bg-white min-h-12 rounded-sm px-5 lg:flex hidden  justify-between'>
             <input className='w-full text-black/70 focus:outline-none' placeholder='Search for anything...'  type="text" /> 

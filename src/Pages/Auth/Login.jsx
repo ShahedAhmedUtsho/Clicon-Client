@@ -97,8 +97,8 @@ const Login = () => {
                     </Form.Field>
                     </div>
                     <Form.Submit asChild>
-                       <Button  size="long"  className="w-full" >
-                         <BodySmall600 >
+                       <Button  size="long"   className="w-full  hover:contrast-125 " >
+                         <BodySmall600 cl >
                                 Sign In
                                
                          </BodySmall600>
@@ -123,7 +123,7 @@ const Login = () => {
             </div>
          </div>
 
-    <Button  size="long" variant="outline" className="w-full text-[#475156] normal-case relative hover:shadow-sm  !border-[#E4E7E9]  " >
+    <Button  size="long" variant="outline" className="w-full text-[#475156] normal-case relative hover:shadow-md  !border-[#E4E7E9]  " >
         
     <img src={google} alt="apple" className="w-4 h-4 absolute left-[5%]"   />
         <BodySmall400 className="w-full"  >
@@ -132,7 +132,7 @@ const Login = () => {
         </BodySmall400>
 
     </Button>
-    <Button  size="long" variant="outline" className="w-full text-[#475156] normal-case relative hover:shadow-sm  !border-[#E4E7E9]  " >
+    <Button  size="long" variant="outline" className="w-full text-[#475156] normal-case relative hover:shadow-md  !border-[#E4E7E9]  " >
         
         <img src={apple} alt="apple" className="w-4 h-4 absolute left-[5%]"   />
             <BodySmall400 className="w-full"  >

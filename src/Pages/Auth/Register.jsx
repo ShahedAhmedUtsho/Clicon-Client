@@ -191,7 +191,7 @@ const  Register = () => {
                     </div>
                     
                     <Form.Submit asChild>
-                       <Button  size="long"  className="w-full" >
+                       <Button  size="long"  className="w-full hover:contrast-125" >
                          <BodySmall600 >
                                 Sign Up
                                
